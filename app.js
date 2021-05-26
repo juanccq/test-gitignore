@@ -22,5 +22,5 @@ app.delete("/", (req, res) => {
 app.get("/home", homeController.index);
 
 app.listen(port, () => {
-  console.log("project started");
+  console.log("project started on port 3006");
 });
