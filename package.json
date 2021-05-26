@@ -1,0 +1,22 @@
+{
+  "name": "test-gitignore",
+  "version": "1.0.0",
+  "description": "Repository created to test the file deletion on a repository",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanccq/test-gitignore.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juanccq/test-gitignore/issues"
+  },
+  "homepage": "https://github.com/juanccq/test-gitignore#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
