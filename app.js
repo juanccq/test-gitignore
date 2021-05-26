@@ -1,6 +1,7 @@
 const express = require("express");
 const app = express();
 const port = 3006;
+const homeController = require("./controllers/homeController");
 
 app.get("/", (req, res) => {
   res.send("Hello world");
@@ -17,6 +18,8 @@ app.put("/", (req, res) => {
 app.delete("/", (req, res) => {
   res.send("Got a delete request");
 });
+
+app.get("/home", homeController.index);
 
 app.listen(port, () => {
   console.log("project started");
