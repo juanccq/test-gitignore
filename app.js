@@ -4,6 +4,7 @@ const port = 3010;
 const homeController = require("./controllers/homeController");
 const inventoryController = require("./controllers/inventoryController");
 const itemController = require("./controllers/itemController");
+const mediaController = require("./controllers/mediaController");
 
 app.get("/", (req, res) => {
   res.send("Hello world");
@@ -24,6 +25,7 @@ app.delete("/", (req, res) => {
 app.get("/home", homeController.index);
 app.get("/inventory", inventoryController.index);
 app.get("/item", itemController.index);
+app.get("/media", mediaController.index);
 
 app.listen(port, () => {
   console.log("project started on port 3010");

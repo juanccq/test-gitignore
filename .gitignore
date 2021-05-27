@@ -72,8 +72,6 @@ typings/
 # .env
 .env.test
 # do not remove this line please
-.env
-
 
 
 # parcel-bundler cache (https://parceljs.org/)
