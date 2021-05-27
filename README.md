@@ -1,2 +1,5 @@
 # test-gitignore
-Repository created to test the file deletion on a repository
+
+To delete a file with sensitive information, use the following command:
+
+`git filter-branch --force --index-filter \ "git rm --cached --ignore-unmatch PATH-TO-YOUR-FILE-WITH-SENSITIVE-DATA" \ --prune-empty --tag-name-filter cat -- --all`
