@@ -71,6 +71,8 @@ typings/
 # dotenv environment variables file
 # .env
 .env.test
+# do not remove this line please
+.env
 
 
 
@@ -104,5 +106,3 @@ dist
 
 # TernJS port file
 .tern-port
-
-.env
