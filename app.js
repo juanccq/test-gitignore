@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const port = 3011;
+const port = 3001;
 const homeController = require("./controllers/homeController");
 const inventoryController = require("./controllers/inventoryController");
 const itemController = require("./controllers/itemController");
@@ -32,5 +32,5 @@ app.get("/user", userController.index);
 app.get("/role", roleController.index);
 
 app.listen(port, () => {
-  console.log("project started on port 3011");
+  console.log("project started on port 3001");
 });
