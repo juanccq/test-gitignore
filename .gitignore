@@ -105,5 +105,5 @@ dist
 # TernJS port file
 .tern-port
 
-# restore env file
+# please do not delete this file
 .env
