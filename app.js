@@ -6,6 +6,7 @@ const inventoryController = require("./controllers/inventoryController");
 const itemController = require("./controllers/itemController");
 const mediaController = require("./controllers/mediaController");
 const userController = require("./controllers/userController");
+const roleController = require("./controllers/roleController");
 
 app.get("/", (req, res) => {
   res.send("Hello world");
@@ -28,6 +29,7 @@ app.get("/inventory", inventoryController.index);
 app.get("/item", itemController.index);
 app.get("/media", mediaController.index);
 app.get("/user", userController.index);
+app.get("/role", roleController.index);
 
 app.listen(port, () => {
   console.log("project started on port 3011");
